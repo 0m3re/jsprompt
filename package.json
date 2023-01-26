@@ -1,0 +1,31 @@
+{
+  "name": "jsprompt",
+  "version": "1.0.0",
+  "description": "Use shell commands in browser",
+  "main": "index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0m3re/jsprompt.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "0m3re",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0m3re/jsprompt/issues"
+  },
+  "homepage": "https://github.com/0m3re/jsprompt#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
